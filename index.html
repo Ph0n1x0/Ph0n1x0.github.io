@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luis Miguel Loaiza Zapata | Mechanical & Biomedical Engineer</title>
+  <meta name="description" content="Portfolio of Luis Miguel Loaiza Zapata: mechanical engineer and Erasmus Mundus Biomedical Engineering MSc student working on computational mechanics, robotics and medical image processing.">
+  <meta name="author" content="Luis Miguel Loaiza Zapata">
+  <meta property="og:title" content="Luis Miguel Loaiza Zapata | Mechanical & Biomedical Engineer">
+  <meta property="og:description" content="Computational mechanics, robotics and biomedical engineering projects.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230e7490'/%3E%3Ctext x='32' y='42' font-family='Arial' font-size='28' font-weight='700' text-anchor='middle' fill='white'%3ELM%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    // Apply the saved theme before first paint to avoid a flash
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container" aria-label="Main navigation">
+    <a class="brand" href="#top" aria-label="Back to top">LM</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li>
+        <button class="theme-toggle" aria-label="Switch light/dark theme" title="Switch theme">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="avatar" aria-hidden="false">
+        <span class="avatar-fallback">LM</span>
+        <!-- Put your photo at assets/img/profile.png (square, ~600x600 works well) -->
+        <img src="assets/img/profile.png" alt="Portrait of Luis Miguel Loaiza Zapata" onerror="this.remove()">
+      </div>
+      <div class="hero-text">
+        <p class="eyebrow">Erasmus Mundus Scholar 2025–2027</p>
+        <h1>Luis Miguel Loaiza Zapata</h1>
+        <p class="tagline">Mechanical engineer building bridges between <strong>computational mechanics</strong>, <strong>robotics</strong> and <strong>biomedical engineering</strong>.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="assets/Luis_Miguel_Loaiza_CV.pdf" target="_blank" rel="noopener">Download CV</a>
+          <a class="btn btn-ghost" href="#projects">See my projects</a>
+        </div>
+        <ul class="social" aria-label="Social links">
+          <li><a href="https://www.linkedin.com/in/luis-miguel-loaiza-zapata-193192252/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a></li>
+          <!-- TODO: replace YOUR-USERNAME with your GitHub username -->
+          <li><a href="https://github.com/Ph0n1x0" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a></li>
+          <li><a href="mailto:lmloaizazv@gmail.com" aria-label="Email" title="Email">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I am a mechanical engineer with a strong interest in computational mechanics, robotics, mechanical design, programming and biomedical engineering. My experience spans CAD design (SolidWorks, Autodesk Inventor), scientific programming (Python, MATLAB, C++) and simulation tools such as ANSYS, together with applied research in predictive maintenance, medical image processing and haptic sensing.</p>
+          <p>I am currently pursuing the Erasmus Mundus Joint Master's in Biomedical Engineering (EMMBIOME), which lets me bridge my mechanical background with applications in healthcare and technology across Serbia, Greece and Romania.</p>
+          <p>I am an independent, proactive person, driven by research, continuous learning and problem-solving.</p>
+        </div>
+        <aside class="facts" aria-label="Quick facts">
+          <dl>
+            <dt>Currently</dt>
+            <dd>M.Sc. Biomedical Engineering (EMMBIOME), 2025–2027</dd>
+            <dt>Background</dt>
+            <dd>B.S. Mechanical Engineering, EAFIT University (Rank 1, GPA 4.6/5.0)</dd>
+            <dt>Focus areas</dt>
+            <dd>Computational mechanics · Robotics · Medical image processing · Predictive maintenance</dd>
+            <dt>Languages</dt>
+            <dd>Spanish (native) · English (C1, IELTS 7.0) · German (A2)</dd>
+            <dt>Based in</dt>
+            <dd>Serbia · Greece · Romania (Erasmus Mundus mobility)</dd>
+          </dl>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROFESSIONAL EXPERIENCE -->
+  <section id="experience" class="section alt">
+    <div class="container">
+      <h2 class="section-title">Professional experience</h2>
+      <ol class="timeline">
+
+        <li class="tl-item">
+          <div class="tl-date">May 2025 – Sep 2025</div>
+          <div class="tl-body">
+            <h3>Project Engineer</h3>
+            <p class="org">ALICO S.A.S | BIC · Medellín, Colombia</p>
+            <ul>
+              <li>Designed mechanical components for industrial machines and produced technical drawings for manufacturing.</li>
+              <li>Developed software tools and applications to optimize internal tasks.</li>
+              <li>Evaluated technologies for predictive maintenance applications.</li>
+            </ul>
+            <p class="chips"><span>SolidWorks</span><span>Technical drawing</span><span>Python</span><span>Predictive maintenance</span></p>
+          </div>
+        </li>
+
+        <li class="tl-item">
+          <div class="tl-date">Jan 2024 – Jun 2024</div>
+          <div class="tl-body">
+            <h3>Mechanical Engineering Intern</h3>
+            <p class="org">ISAGEN S.A. · Medellín, Colombia</p>
+            <ul>
+              <li>Conducted research for the project <em>“Automated diagnosis of machines using process and predictive variables.”</em></li>
+              <li>Evaluated machine learning-based technologies for predictive maintenance applications.</li>
+              <li>Analyzed mechanical vibrations in power generation units in collaboration with the digital transformation team.</li>
+              <li>Built a Python application for preliminary vibration studies with machine-learning forecasts (see <a href="#projects">Projects</a>).</li>
+            </ul>
+            <p class="chips"><span>Python</span><span>Machine learning</span><span>Vibration analysis</span></p>
+          </div>
+        </li>
+
+      </ol>
+    </div>
+  </section>
+
+  <!-- RESEARCH & ACADEMIC -->
+  <section id="research" class="section">
+    <div class="container">
+      <h2 class="section-title">Research &amp; academic experience</h2>
+      <ol class="timeline">
+
+        <li class="tl-item">
+          <div class="tl-date">Jun 2026 – Sep 2026</div>
+          <div class="tl-body">
+            <h3>Research Intern</h3>
+            <p class="org">Open Robotics Group, University of Patras · Patras, Greece</p>
+            <ul>
+              <li>Conducted research on haptic feedback technologies for prosthetic devices.</li>
+              <li>Investigated the development of electronic skins (e-skins) for tactile sensing applications.</li>
+            </ul>
+            <p class="chips"><span>Haptics</span><span>E-skins</span><span>Prosthetics</span><span>Tactile sensing</span></p>
+          </div>
+        </li>
+
+        <li class="tl-item">
+          <div class="tl-date">Jan 2023 – Jan 2024</div>
+          <div class="tl-body">
+            <h3>Research Student</h3>
+            <p class="org">ARES Robotics Research Group, EAFIT University · Medellín, Colombia</p>
+            <ul>
+              <li>Independent participation in the ARES Robotics Research Incubator.</li>
+              <li>Learned ROS2 and programmed a robotic arm in both virtual and real environments (see <a href="#projects">Projects</a>).</li>
+            </ul>
+            <p class="chips"><span>ROS2</span><span>C++</span><span>Python</span><span>Gazebo</span></p>
+          </div>
+        </li>
+
+        <li class="tl-item">
+          <div class="tl-date">Jan 2023 – Jan 2024</div>
+          <div class="tl-body">
+            <h3>Administrative Assistant, Metrology Laboratory</h3>
+            <p class="org">EAFIT University · Medellín, Colombia</p>
+            <ul>
+              <li>Supported the day-to-day administration of the university's metrology laboratory.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="tl-item">
+          <div class="tl-date">Jun 2022 – Dec 2022</div>
+          <div class="tl-body">
+            <h3>Academic Tutor, Physics Lab II</h3>
+            <p class="org">EAFIT University · Medellín, Colombia</p>
+            <ul>
+              <li>Advised students and supported the instructor in running laboratory exercises.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="tl-item">
+          <div class="tl-date">Jun 2021 – Feb 2022</div>
+          <div class="tl-body">
+            <h3>Researcher, Renewable Energy Research Group</h3>
+            <p class="org">EAFIT University · Medellín, Colombia</p>
+            <ul>
+              <li>Took part in a renewable energy workshop aimed at proposing solutions to problems at the university.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="tl-item">
+          <div class="tl-date">Jun 2020 – Jun 2021</div>
+          <div class="tl-body">
+            <h3>Academic Tutor, Calculus I, Calculus II &amp; Dynamics</h3>
+            <p class="org">EAFIT University · Medellín, Colombia</p>
+            <ul>
+              <li>Provided academic tutoring for undergraduate students in Calculus I, Calculus II and Dynamics.</li>
+            </ul>
+          </div>
+        </li>
+
+      </ol>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section alt">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-lead">Selected academic and professional projects, from most recent to oldest.</p>
+
+      <div class="filters" role="group" aria-label="Filter projects by topic">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="biomedical">Biomedical</button>
+        <button class="chip" data-filter="computational">Computational mechanics</button>
+        <button class="chip" data-filter="ml">Machine learning</button>
+        <button class="chip" data-filter="robotics">Robotics</button>
+        <button class="chip" data-filter="design">Design &amp; manufacturing</button>
+      </div>
+
+      <!--
+        HOW TO ADD A PHOTO TO A PROJECT:
+        save an image as assets/img/projects/<name>.jpg using the file name written in each card's <img>.
+        Until the image exists the card shows a coloured banner instead.
+      -->
+      <div class="project-grid">
+
+        <article class="card" data-cat="biomedical">
+          <div class="thumb thumb-bio"><span>Biomedical · Wearables</span>
+            <img src="assets/img/projects/parkinson-balance.png" alt="Wearable IMU balance assessment in Parkinson's disease" loading="lazy" onerror="this.remove()"></div>
+          <div class="card-body">
+            <!-- TODO: fill in the real dates and university -->
+            <p class="meta">Feb 2026 – Jun 2026 · University of Patras, Greece</p>
+            <h3>Wearable-Based Quantification of Static Balance in Parkinson's Disease</h3>
+            <ul>
+              <li>Can IMU devices provide a solution to collect valuable data to quantify the severity of Parkinson's disease? </li>
+              <li>Development of signal processing pipeline for feature extraction and analysis</li>
+            </ul>
+            <p class="chips"><span>IMU</span><span>Signal processing</span><span>Parkinson's disease</span><span>Postural control</span><span>Sample entropy</span></p>
+            <p class="links"><a href="https://github.com/Ph0n1x0/-Wearable-Based-Quantification-of-Static-Balance-in-Parkinson-s-Disease.git" target="_blank" rel="noopener">GitHub</a></p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="biomedical computational">
+          <div class="thumb thumb-bio"><span>Biomedical</span>
+            <img src="assets/img/projects/cfd.png" alt="CFD simulation of blood flow in a coronary artery" loading="lazy" onerror="this.remove()"></div>
+          <div class="card-body">
+            <p class="meta">Feb 2026 – Jun 2026 · University of Patras, Greece</p>
+            <h3>CFD Simulation in Coronary Artery for Blood Flow Analysis</h3>
+            <ul>
+              <li>Reconstructed a patient-specific coronary artery geometry using specialized reconstruction software.</li>
+              <li>Performed haemodynamic analysis in ANSYS to characterize blood flow behaviour within the artery.</li>
+              <li>Analyzed flow patterns relevant to the detection of coronary artery disease.</li>
+            </ul>
+            <p class="chips"><span>ANSYS</span><span>CFD</span><span>Haemodynamics</span></p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="biomedical ml">
+          <div class="thumb thumb-bio"><span>Biomedical · ML</span>
+            <img src="assets/img/projects/rib-segmentation.png" alt="3D rib cage segmentation result" loading="lazy" onerror="this.remove()"></div>
+          <div class="card-body">
+            <p class="meta">Nov 2025 – Jan 2026 · University of Kragujevac, Serbia</p>
+            <h3>3D Rib Cage Segmentation</h3>
+            <ul>
+              <li>Developed three segmentation approaches for rib structures using two public datasets: RibFrac (CT-based rib instance and fracture segmentation) and VinDr-RibCXR (chest X-ray rib labeling).</li>
+              <li>Adapted and integrated two public repositories to perform rib fracture detection and individual rib segmentation and labeling.</li>
+            </ul>
+            <p class="chips"><span>Python</span><span>Deep learning</span><span>Medical imaging</span></p>
+            <!-- TODO: replace with the real repository URL -->
+            <p class="links"><a href="https://https://github.com/Ph0n1x0/3D_Rib_-Segmentation-" target="_blank" rel="noopener">GitHub</a></p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="computational">
+          <div class="thumb thumb-comp"><span>Computational mechanics</span>
+            <img src="assets/img/projects/temp.png" alt="Finite element heat transfer solution" loading="lazy" onerror="this.remove()"></div>
+          <div class="card-body">
+            <p class="meta">Jul 2024 – Nov 2024 · EAFIT University, Colombia</p>
+            <h3>Finite Element Method (FEM) for Heat Transfer Problems</h3>
+            <ul>
+              <li>Built on the open-source SolidsPy repository to develop an algorithm that solves heat transfer problems on meshes of quadrilateral and triangular elements, with nodes at the element vertices.</li>
+            </ul>
+            <p class="chips"><span>Python</span><span>FEM</span><span>Heat transfer</span></p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="computational">
+          <div class="thumb thumb-comp"><span>Computational mechanics</span>
+            <img src="assets/img/projects/x.png" alt="Boundary element method with multipole acceleration" loading="lazy" onerror="this.remove()"></div>
+          <div class="card-body">
+            <p class="meta">Jul 2024 – Nov 2024 · EAFIT University, Colombia</p>
+            <h3>Integration of the Multipole Method into the Boundary Element Method (BEM)</h3>
+            <ul>
+              <li>Adapted a boundary element code base to solve Poisson equation problems.</li>
+              <li>Implemented multipoles to reduce computational overhead and improve algorithm efficiency.</li>
+            </ul>
+            <p class="chips"><span>Python</span><span>Gmsh</span><span>BEM</span></p>
+            <!-- TODO: replace with the real repository URL -->
+            <p class="links"><a href="https://github.com/Ph0n1x0/FMM-BEM-" target="_blank" rel="noopener">GitHub</a></p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="ml">
+          <div class="thumb thumb-ml"><span>Machine learning</span>
+            <img src="assets/img/projects/vibration-app.png" alt="Vibration forecasting application" loading="lazy" onerror="this.remove()"></div>
+          <div class="card-body">
+            <p class="meta">Jan 2024 – Jun 2024 · ISAGEN S.A., Colombia</p>
+            <h3>Mechanical Vibration Study App with Machine-Learning Forecasts</h3>
+            <ul>
+              <li>During my professional internship, proposed and developed a Python application with machine-learning tools to identify failure pathologies and predict mechanical vibration variables.</li>
+            </ul>
+            <p class="chips"><span>Python</span><span>Machine learning</span><span>Predictive maintenance</span></p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="design computational">
+          <div class="thumb thumb-design"><span>Vehicle dynamics</span>
+            <img src="assets/img/projects/rolling-resistance.jpg" alt="Vehicle coast-down test" loading="lazy" onerror="this.remove()"></div>
+          <div class="card-body">
+            <p class="meta">Aug 2023 – Dec 2023 · EAFIT University, with Renault Sofasa</p>
+            <h3>Rolling Resistance Coefficient: Renault Sofasa</h3>
+            <ul>
+              <li>Characterized vehicles to build a mathematical model and compute the coefficients of interest for “coast-down” vehicle dynamics tests.</li>
+            </ul>
+            <p class="chips"><span>Mathematical modelling</span><span>Vehicle dynamics</span></p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="robotics">
+          <div class="thumb thumb-robot"><span>Robotics</span>
+            <img src="assets/img/projects/robot.png" alt="Robotic arm controlled with ROS2" loading="lazy" onerror="this.remove()"></div>
+          <div class="card-body">
+            <p class="meta">Jul 2023 – Nov 2023 · ARES Robotics Research Group, EAFIT</p>
+            <h3>Robotic Arm Programming with ROS2</h3>
+            <ul>
+              <li>Learned the fundamentals of ROS2 and its compatible tools (RViz, Gazebo).</li>
+              <li>Programmed robotic movement in both virtual and real environments.</li>
+            </ul>
+            <p class="chips"><span>C++</span><span>Python</span><span>ROS2</span><span>Linux</span><span>RViz</span><span>Gazebo</span></p>
+            <!-- TODO: replace with the real repository URL -->
+            <p class="links"><a href="https://github.com/Ph0n1x0/brazo_hardware" target="_blank" rel="noopener">GitHub</a></p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="design">
+          <div class="thumb thumb-design"><span>Science &amp; innovation</span>
+            <img src="assets/img/projects/science-innovation.jpg" alt="Science and innovation project" loading="lazy" onerror="this.remove()"></div>
+          <div class="card-body">
+            <p class="meta">Feb 2023 – Jun 2023 · EAFIT University, Colombia</p>
+            <h3>Science &amp; Innovation Project</h3>
+            <ul>
+              <li>Formulated a science and innovation project covering all administrative and engineering requirements, aimed at a problem tied to a national and international Sustainable Development Goal.</li>
+            </ul>
+            <p class="chips"><span>Project development</span><span>Budgeting</span></p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="design">
+          <div class="thumb thumb-design"><span>Design &amp; manufacturing</span>
+            <img src="assets/img/projects/cnc-router.png" alt="CNC router built at EAFIT" loading="lazy" onerror="this.remove()"></div>
+          <div class="card-body">
+            <p class="meta">Jun 2022 – Nov 2022 · EAFIT University, Colombia</p>
+            <h3>Design and Construction of a CNC Router</h3>
+            <ul>
+              <li>Complete design and construction of a CNC router according to the initially established requirements.</li>
+            </ul>
+            <p class="chips"><span>SolidWorks</span><span>3D modelling</span><span>Manufacturing</span></p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="computational design">
+          <div class="thumb thumb-comp"><span>Computational mechanics</span>
+            <img src="assets/img/projects/screw-jack-fem.jpg" alt="FEM simulation of a screw jack" loading="lazy" onerror="this.remove()"></div>
+          <div class="card-body">
+            <p class="meta">Jan 2022 – Jun 2022 · EAFIT University, Colombia</p>
+            <h3>FEM Simulation of a Screw Jack</h3>
+            <ul>
+              <li>Compared the results of an FEM simulation of a screw jack under load against the original system measured with strain gauges.</li>
+            </ul>
+            <p class="chips"><span>SolidWorks Simulation</span><span>FEM</span><span>Strain gauges</span></p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="computational">
+          <div class="thumb thumb-comp"><span>Computational mechanics</span>
+            <img src="assets/img/projects/interpolation.jpg" alt="Interpolation methods in engineering" loading="lazy" onerror="this.remove()"></div>
+          <div class="card-body">
+            <p class="meta">Jun 2021 – Nov 2021 · EAFIT University, Colombia</p>
+            <h3>Interpolation Methods in Engineering Applications</h3>
+            <ul>
+              <li>Optimized interpolation methods for use in a range of mechanical engineering applications.</li>
+            </ul>
+            <p class="chips"><span>Numerical methods</span></p>
+          </div>
+        </article>
+
+        <article class="card" data-cat="design">
+          <div class="thumb thumb-design"><span>Design &amp; manufacturing</span>
+            <img src="assets/img/projects/human-powered-vehicle.jpg" alt="Human-powered vehicle structure" loading="lazy" onerror="this.remove()"></div>
+          <div class="card-body">
+            <p class="meta">Jun 2021 – Nov 2021 · EAFIT University, Colombia</p>
+            <h3>Design and Construction of a Human-Powered Vehicle Structure</h3>
+            <ul>
+              <li>Produced the overall vehicle design, including all equipment, following the design criteria and requirements.</li>
+            </ul>
+            <p class="chips"><span>SolidWorks</span><span>Mechanism design</span></p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-grid">
+        <article class="edu">
+          <p class="edu-date">2025 – 2027</p>
+          <h3>Erasmus Mundus Joint Master's, M.Sc. in Biomedical Engineering (EMMBIOME)</h3>
+          <p class="org">University of Kragujevac (Serbia) · University of Patras (Greece) · Grigore T. Popa University of Medicine and Pharmacy, Iași (Romania)</p>
+        </article>
+        <article class="edu">
+          <p class="edu-date">2020 – 2024</p>
+          <h3>B.S. in Mechanical Engineering</h3>
+          <p class="org">EAFIT University · Medellín, Colombia</p>
+          <ul>
+            <li>GPA: 4.6 / 5.0</li>
+            <li>Graduated as Rank 1 in the Mechanical Engineering program</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="two-col">
+        <div>
+          <h3 class="sub-title">Certifications</h3>
+          <ul class="plain">
+            <li><strong>SOLIDWORKS Simulation &amp; Mechanical Design Associate</strong><span>Sep 2024</span></li>
+            <li><strong>Foundational MATLAB, MathWorks</strong><span>Jul 2024</span></li>
+            <li><strong>Python in Data Science, DataCamp</strong><span>Mar 2024</span></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="sub-title">Awards &amp; scholarships</h3>
+          <ul class="plain">
+            <li><strong>Erasmus Mundus Scholarship</strong> (M.Sc. in Biomedical Engineering, EMMBIOME)<span>Jun 2025</span></li>
+            <li><strong>COLFUTURO Scholarship</strong> for graduate studies abroad<span>May 2025</span></li>
+            <li><strong>Mechanical Engineering Inventive Project Award</strong> (winner)<span>Oct 2021</span></li>
+            <li><strong>Fundación Educación Scholarship</strong> for undergraduate studies<span>Dec 2019</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-box">
+          <h3>Programming</h3>
+          <p class="chips"><span>Python</span><span>MATLAB</span><span>C++</span><span>R</span></p>
+        </div>
+        <div class="skill-box">
+          <h3>CAD &amp; simulation</h3>
+          <p class="chips"><span>SolidWorks</span><span>Autodesk Inventor</span><span>ANSYS</span><span>Gmsh</span></p>
+        </div>
+        <div class="skill-box">
+          <h3>Methods</h3>
+          <p class="chips"><span>Finite elements (FEM)</span><span>Boundary elements (BEM)</span><span>CFD</span><span>Heat transfer</span></p>
+        </div>
+        <div class="skill-box">
+          <h3>Robotics &amp; data</h3>
+          <p class="chips"><span>ROS2</span><span>Gazebo</span><span>RViz</span><span>Linux</span><span>Machine learning</span><span>Deep learning</span><span>Medical image processing</span></p>
+        </div>
+        <div class="skill-box">
+          <h3>Tools</h3>
+          <p class="chips"><span>VS Code</span><span>Git &amp; GitHub</span><span>Microsoft Office</span></p>
+        </div>
+        <div class="skill-box">
+          <h3>Languages</h3>
+          <p class="chips"><span>Spanish: native</span><span>English: C1 (IELTS 7.0)</span><span>German: A2</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container contact">
+      <h2 class="section-title">Get in touch</h2>
+      <p class="section-lead">I'm open to research collaborations, internships and conversations about computational mechanics, robotics and biomedical engineering.</p>
+      <div class="hero-actions center">
+        <a class="btn btn-primary" href="mailto:lmloaizazv@gmail.com">Send me an email</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/luis-miguel-loaiza-zapata-193192252/" target="_blank" rel="noopener">Connect on LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year">2026</span> Luis Miguel Loaiza Zapata · Last updated: November 2026</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
